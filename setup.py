@@ -4,12 +4,12 @@ with open("README.md", "r") as fh:
   long_description = fh.read()
 
 setuptools.setup(
-  name="zermelo.py",
-  version="1.0.1",
+  name="API wrapper Zermelo",
+  version="0.1",
   license="MIT",
-  url="https://github.com/wouter173/zermelo.py",
+  url="https://github.com/SCOL-Leo/API-Wrapper-Zermelo",
 
-  description="Zermelo api wrapper library for python.",
+  description="Zermelo API wrapper for python.",
   long_description=long_description,
   long_description_content_type="text/markdown",
 
