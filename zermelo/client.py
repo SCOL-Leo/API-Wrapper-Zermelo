@@ -73,7 +73,7 @@ class Client():
         if token == "":
             raise ValueError("Token is not defined.")
 
-        url = "{}/v2/announcements".format(self.endpoint)
+        url = "{}/v3/announcements".format(self.endpoint)
         params = {
             "user": "~me",
             "access_token": token
