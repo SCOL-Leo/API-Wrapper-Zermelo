@@ -14,7 +14,7 @@ setuptools.setup(
   long_description_content_type="text/markdown",
 
   package_dir={"zermelo": "zermelo"},
-  install_requires=["requests>=2.17.0"],
+  install_requires=["requests>=2.28.2"],
 
   packages=setuptools.find_packages(),
 
